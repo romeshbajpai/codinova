@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2{
+    color: teal;
+}
+b{
+    color: blue;
+}
+p{
+    color: grey;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+.titleSection,.tableSection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.tableSection table{
+    width: 100%;
+    padding: 20px;
+}
+.detailSection{
+    display: flex;
+    gap: 20px;
+}
+.tableSection input{
+    padding: 5px;
+    width: 320px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 20px;
+}
